@@ -17,7 +17,7 @@ from . import __version__
 log = logging.getLogger(__name__)
 
 # Put a real contact page or e-mail address here before long runs, so the site's administrators can reach you.
-USER_AGENT = f"tnmsc-scraper/{__version__} (public procurement data research; +https://example.invalid/contact)"
+USER_AGENT = f"tnmsc-scraper/{__version__} (public procurement data research; +https://github.com/insightLegion/tnmsc-scraper)"
 MB = 1024 * 1024
 REFUSALS = {403, 429, 503}
 
